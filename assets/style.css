@@ -1,0 +1,14 @@
+:root{
+	--bg: #f7f7f7;
+	--card: #ffffff;
+	--accent: #ffcc00;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:var(--bg); color:#222; min-height:100vh; display:flex; align-items:center; justify-content:center}
+.container{background:var(--card); padding:2rem; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08); text-align:center; width:320px}
+h1{margin-bottom:1rem}
+#lampada{width:200px; max-width:100%; display:block; margin:0 auto 1rem}
+.controls{display:flex; gap:0.5rem; justify-content:center}
+button{padding:0.5rem 1rem; border-radius:6px; border:1px solid #ddd; background:white; cursor:pointer}
+button#ligarBtn{background:linear-gradient(180deg,var(--accent),#f4b400); border-color:rgba(0,0,0,0.08)}
+button:active{transform:translateY(1px)}
